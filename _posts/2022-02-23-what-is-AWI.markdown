@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "What is AWI"
+title:  "What is AWI?"
 date:   2022-02-23 19:35:45 -0400
 categories: AWI
 image: "AWILOGO.png"
