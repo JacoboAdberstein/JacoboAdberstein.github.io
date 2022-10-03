@@ -18,31 +18,29 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: JEKYLL X BULMA
-email: whyherro@nativvstudios.com
+title: Jacobo Adberstein
+email: jadberstein@gmail.com
 author:
-  name: Nativv Studios
+  name: Jacobo Adberstein
   about:
 
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This is my blog/portfolio where I like to write about all sorts of things, tech, music, art, anything really. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 contacts:
-  - title: twitter 
-    url: 'https://twitter.com/whyherro1'
+  #- title: twitter 
+  #  url: 'https://twitter.com/whyherro1'
   - title: github
-    url:  'https://github.com/nativvstudios'
+    url:  'https://github.com/JacoboAdberstein'
   # - title: facebook
   #   url: 'https://example.com/@jekyllrb'
   # - title: instagram
   #   url: 'https://example.com/@jekyllrb'
-  # - title: linkedin
-  #   url: 'https://example.com/@jekyllrb'
+  - title: linkedin
+     url: 'https://www.linkedin.com/in/jadberstein/'
   # - title: youtube
   #   url: 'https://example.com/@jekyllrb'
   # - title: twitch
@@ -56,7 +54,7 @@ contacts:
   # - title: slack
   #   url: 'https://example.com/@jekyllrb'
   - title: email
-    url: mailto:whyherro@nativvstudios.com
+    url: mailto:jadberstein@gmail.com
 
 # Build settings
 theme: minima
