@@ -25,7 +25,7 @@ author:
   about:
 
 description: >- # this means to ignore newlines until "baseurl:"
-  This is my blog/portfolio where I like to write about all sorts of things, tech, music, art, anything really. 
+  This my personal blog/portfolio website. This is where I like to talk about my projects, hobbies, and thoughts. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
