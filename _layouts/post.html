@@ -23,7 +23,16 @@
         </div>
     </section>
 
-    <div class="post-content"> {{content}} </div>
+    <!-- <div class="post-content"> {{content}} </div> -->
+      
+    <div class="content">
+              {{ post.content }}
+            <a>@bulmaio</a>.
+            <a href="#">#css</a>
+            <a href="#">#responsive</a>
+            <br>
+            <time datetime="{{ post.date }}">{{ post.date }}</time>
+    </div>
 
 
 
