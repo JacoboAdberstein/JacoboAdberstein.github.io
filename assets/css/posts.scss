@@ -367,8 +367,18 @@ body {
           }
         
           img {
-            max-width: 100%;
-          }
+    max-width: 100%;
+    height: auto;
+}
+
+.item {
+    width: 120px;
+    min-height: 120px;
+    max-height: auto;
+    float: left;
+    margin: 3px;
+    padding: 3px;
+}
         
           overflow-x: auto !important;
         
