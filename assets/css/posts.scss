@@ -269,6 +269,20 @@ body {
   max-width: 100%;
   margin: 0 auto;
   color: var(--white-2);
+  
+	
+  max-height: 100%;
+* {
+    line-height: 180%;
+  }
+
+  p {
+    margin: 0 0 1.0rem 0;
+    padding: 0;
+    color: var(--white-2);
+  }	
+	
+
 }
 
 footer {
