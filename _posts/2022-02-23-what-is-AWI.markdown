@@ -18,7 +18,7 @@ The Astronaut Wrist Interface (AWI) in its most stripped down version would be a
 <h3> Why hasn't something like the AWI been developed already? </h3>
 
 
-The truth is that a system like the AWI has already been developed and tested by NASA in the 90s. NASA developed an electronic checklist that also went on the cuff of the EVA suit (figure 1). This electronic checklist was tested on several missions in the Shuttle era. Some of the most critical feedback from the mission tests included battery or display failures due to extreme temperatures of space, while some of the less critical but still noteworthy feedback notes related to the glare of the screen, or the bulkiness of the overall device (Marmolejo). The image below shows the electronic cuff developed by NASA. Some of the important features of the NASA's electronic cuff were an LCD screen, LCD heater, and a Lithium-Bromide battery pack. 
+The truth is that a system like the AWI has already been developed and tested by NASA in the 90s. NASA developed an electronic checklist that also went on the cuff of the EVA suit. This electronic checklist was tested on several missions in the Shuttle era. Some of the most critical feedback from the mission tests included battery or display failures due to extreme temperatures of space, while some of the less critical but still noteworthy feedback notes related to the glare of the screen, or the bulkiness of the overall device (Marmolejo). The image below shows the electronic cuff developed by NASA. Some of the important features of the NASA's electronic cuff were an LCD screen, LCD heater, and a Lithium-Bromide battery pack. 
 
 <figure align="center">
     <img src='/postImages/AWI/electronicCuff.png' alt='missing' />
@@ -30,3 +30,31 @@ The NASA electronic cuff's development was stagnated in a sense due to the techn
 While the technology in almost every component of the electronic cuff has been improved, the harsh environment of space still poses a very tough challenge. The current battery and display technology is still not advanced enough to withstand the extreme temperatures of space. Any system developed right now would still need to deal with heaters and proper thermal balances for the components. By far, the greatest improvement in today's technology compared to the technology of the time, is the reliability of the display and battery systems.
 
 I believe that with the current technology a system like the AWI would be difficult to develop, but feasible. At the end of the day, it being difficult to develop is what makes it fun. 
+
+### *Mark I* prototype general information
+These are some of the main components I utilized to develop the first prototype (*Mark I*)
+- Raspberry Pi 4 
+- Arduino nano
+- Kuman 7 in touchscreen display
+- HiLetgo 433 MHz transmitter and receiver  
+- DS18B20 Temperature sensor module
+- Adafruit 9-DOF IMU Fusion-Breakout BNO055
+- 7 Push buttons
+
+#### Main features of AWI prototype/concept
+As mentioned above, in its most stripped down version, the AWI system would provide mission checklists, suit telemetry data, and a navigation system. In this specific post, I will focus on the overall features and solutions that the current AWI prototype has and how it compares to previous NASA solutions. In future posts, I am planning on delving more into some of the specifics regarding the program's design and technologies, as well as some of the physical design features. 
+
+---
+
+##### Checklists
+Just like the NASA electronic cuff, the AWI system displays mission instructions and checklists that astronauts need during EVA operations. One of the advantages brought by the technology from today is the implementation of images or videos on the checklists that can help the astronaut complete complex tasks. The other important improvement from the AWI when compared to the previous checklist systems is the ability to wirelessly modify or update any instructions without having to open the device's enclosure. It is worth to note that previous to the NASA electronic cuff system, astronauts relied on little notebooks on their cuffs. These notebooks held a very limited amount of information and were cumbersome to use. 
+
+##### Telemetry
+As can be seen in the diagram above, the telemetry dashboard is divided into two main information panels. The telemetry data from the astronaut suit. This dashboard displays the vitals of the person, as well as suit data like: pressure, power, and temperature. The AWI system picks up the suit's information from an S-band transmission from the suit itself, processes it and displays it in an easy and quick to read dashboard. On top of the dashboard, the AWI system has an alert system for warnings and emergencies. 
+
+Previous to the AWI system, astronauts would have a mirror on their cuff that would let them see the information on their Remote Control Unit (RCU) which is located on their chest (figure 2). 
+
+##### Navigation
+The last main system that the Mark I version of the AWI currently has is a navigation system. Unfortunately, having a navigation system on the AWI system is not as easy as setting up a GPS module. This is due to the lack of orbiting satellites on celestial bodies like the moon or Mars, where the upcoming EVA missions are expected to take place. Having a navigation system during an EVA assignment is crucial, given that the uniformity of the terrain can be very disorienting for the astronauts. 
+
+The AWI combines two different types of navigation modules that together improve accuracy, and add another layer of redundancy in the event one of the module fails. The first method of navigation is a radio direction finding system. The second module is an inertial navigation unit. In the next part of this blog post, I will go over how these modules work individually. 
