@@ -367,15 +367,17 @@ body {
           }
         
           img {
-    max-width: 100%;
+    max-width: 50%;
+    max-height: auto;
     height: auto;
+    float: center;
 }
 
 .item {
     width: 120px;
     min-height: 120px;
     max-height: auto;
-    float: left;
+    float: center;
     margin: 3px;
     padding: 3px;
 }
