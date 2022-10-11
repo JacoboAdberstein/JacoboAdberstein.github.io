@@ -64,8 +64,8 @@ As can be seen in the diagram above, the telemetry dashboard is divided into two
 Previous to the AWI system, astronauts would have a mirror on their cuff that would allow them to see some telemetry data as well as having a rudamentary way of controlling some features of the suit. During the Apollo period, this panel was called the Remote Control Unit (RCU), today it is the Display and Control Module (DCM). Both of these systems can be seen below. 
 
 <figure align="center">
-    <img src='/postImages/AWI/RCU.jpg' alt='missing' />
-    <img src='/postImages/AWI/DCU.jpg' alt='missing' />
+    <img align="left" src='/postImages/AWI/RCU.jpg' alt='missing' />
+    <img align="right" src='/postImages/AWI/DCU.jpg' alt='missing' />
     <figcaption> Cuff Checklist, EVA 2 & 3, Apollo 16 (Young, John), National Air and Space Museum </figcaption>
 </figure>
 
