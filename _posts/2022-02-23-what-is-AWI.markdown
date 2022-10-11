@@ -20,13 +20,6 @@ The Astronaut Wrist Interface (AWI) in its most stripped down version would be a
 
 The truth is that a system like the AWI has already been developed and tested by NASA in the 90s. NASA developed an electronic checklist that also went on the cuff of the EVA suit (figure 1). This electronic checklist was tested on several missions in the Shuttle era. Some of the most critical feedback from the mission tests included battery or display failures due to extreme temperatures of space, while some of the less critical but still noteworthy feedback notes related to the glare of the screen, or the bulkiness of the overall device (Marmolejo). The image below shows the electronic cuff developed by NASA. Some of the important features of the NASA's electronic cuff were an LCD screen, LCD heater, and a Lithium-Bromide battery pack. 
 
-
-<p align="center">
-  <img src="/postImages/AWI/electronicCuff.png">
-  <figcaption>Caption goes here</figcaption>
-</p>
-
-
 <figure align="center">
     <img src='/postImages/AWI/electronicCuff.png' alt='missing' />
     <figcaption>Caption goes here</figcaption>
