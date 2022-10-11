@@ -50,12 +50,25 @@ As mentioned above, in its most stripped down version, the AWI system would prov
 ### Specific Subsystems
 
 #### Checklists
-Just like the NASA electronic cuff, the AWI system displays mission instructions and checklists that astronauts need during EVA operations. One of the advantages brought by the technology from today is the implementation of images or videos on the checklists that can help the astronaut complete complex tasks. The other important improvement from the AWI when compared to the previous checklist systems is the ability to wirelessly modify or update any instructions without having to open the device's enclosure. It is worth to note that previous to the NASA electronic cuff system, astronauts relied on little notebooks on their cuffs. These notebooks held a very limited amount of information and were cumbersome to use. 
+Just like the NASA electronic cuff, the AWI system displays mission instructions and checklists that astronauts need during EVA operations. One of the advantages brought by the technology from today is the implementation of images or videos on the checklists that can help the astronaut complete complex tasks. The other important improvement from the AWI when compared to the previous checklist systems is the ability to wirelessly modify or update any instructions without having to open the device's enclosure. It is worth to note that previous to the NASA electronic cuff system, astronauts relied on little notebooks on their cuffs. These notebooks held a very limited amount of information and were cumbersome to use. Previous to a mission, the astronauts would add the mission specific checklists, as well as some drawings. 
+
+<figure align="center">
+    <img src='/postImages/AWI/oldChecklist.png' alt='missing' />
+    <figcaption> Cuff Checklist, EVA 2 & 3, Apollo 16 (Young, John), National Air and Space Museum </figcaption>
+</figure>
+
 
 #### Telemetry
 As can be seen in the diagram above, the telemetry dashboard is divided into two main information panels. The telemetry data from the astronaut suit. This dashboard displays the vitals of the person, as well as suit data like: pressure, power, and temperature. The AWI system picks up the suit's information from an S-band transmission from the suit itself, processes it and displays it in an easy and quick to read dashboard. On top of the dashboard, the AWI system has an alert system for warnings and emergencies. 
 
-Previous to the AWI system, astronauts would have a mirror on their cuff that would let them see the information on their Remote Control Unit (RCU) which is located on their chest (figure 2). 
+Previous to the AWI system, astronauts would have a mirror on their cuff that would allow them to see some telemetry data as well as having a rudamentary way of controlling some features of the suit. During the Apollo period, this panel was called the Remote Control Unit (RCU), today it is the Display and Control Module (DCM). Both of these systems can be seen below. 
+
+<figure align="center">
+    <img src='/postImages/AWI/RCU.jpg' alt='missing' />
+    <img src='/postImages/AWI/DCU.jpg' alt='missing' />
+    <figcaption> Cuff Checklist, EVA 2 & 3, Apollo 16 (Young, John), National Air and Space Museum </figcaption>
+</figure>
+
 
 #### Navigation
 The last main system that the Mark I version of the AWI currently has is a navigation system. Unfortunately, having a navigation system on the AWI system is not as easy as setting up a GPS module. This is due to the lack of orbiting satellites on celestial bodies like the moon or Mars, where the upcoming EVA missions are expected to take place. Having a navigation system during an EVA assignment is crucial, given that the uniformity of the terrain can be very disorienting for the astronauts. 
