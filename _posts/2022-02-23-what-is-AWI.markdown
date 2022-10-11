@@ -23,7 +23,14 @@ The truth is that a system like the AWI has already been developed and tested by
 
 <p align="center">
   <img src="/postImages/AWI/electronicCuff.png">
+  <figcaption>Caption goes here</figcaption>
 </p>
+
+
+<figure align="center">
+    <img src='/postImages/AWI/electronicCuff.png' alt='missing' />
+    <figcaption>Caption goes here</figcaption>
+</figure>
 
 The NASA electronic cuff's development was stagnated in a sense due to the technology available at the time. Thankfully, nowadays, the smartphone industry as well as the battery industry are leaps ahead in technology to what was available during that time. New types of display technologies like flexible OLED screens allow for better resolution in a less bulky package. New Lithium-ion batteries are allowing high power consumption devices to be on for extended periods of time, while taking up less space.
 
